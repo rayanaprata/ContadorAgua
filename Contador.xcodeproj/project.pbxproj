@@ -13,9 +13,6 @@
 		88383460270F642800163479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8838345E270F642800163479 /* Main.storyboard */; };
 		88383462270F642A00163479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88383461270F642A00163479 /* Assets.xcassets */; };
 		88383465270F642A00163479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88383463270F642A00163479 /* LaunchScreen.storyboard */; };
-		88383470270F642B00163479 /* ContadorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838346F270F642B00163479 /* ContadorTests.swift */; };
-		8838347A270F642B00163479 /* ContadorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88383479270F642B00163479 /* ContadorUITests.swift */; };
-		8838347C270F642B00163479 /* ContadorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8838347B270F642B00163479 /* ContadorUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		88383464270F642A00163479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88383466270F642A00163479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8838346B270F642B00163479 /* ContadorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContadorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8838346F270F642B00163479 /* ContadorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorTests.swift; sourceTree = "<group>"; };
 		88383475270F642B00163479 /* ContadorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContadorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		88383479270F642B00163479 /* ContadorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorUITests.swift; sourceTree = "<group>"; };
-		8838347B270F642B00163479 /* ContadorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				88383457270F642800163479 /* Contador */,
-				8838346E270F642B00163479 /* ContadorTests */,
-				88383478270F642B00163479 /* ContadorUITests */,
 				88383456270F642800163479 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				88383466270F642A00163479 /* Info.plist */,
 			);
 			path = Contador;
-			sourceTree = "<group>";
-		};
-		8838346E270F642B00163479 /* ContadorTests */ = {
-			isa = PBXGroup;
-			children = (
-				8838346F270F642B00163479 /* ContadorTests.swift */,
-			);
-			path = ContadorTests;
-			sourceTree = "<group>";
-		};
-		88383478270F642B00163479 /* ContadorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				88383479270F642B00163479 /* ContadorUITests.swift */,
-				8838347B270F642B00163479 /* ContadorUITestsLaunchTests.swift */,
-			);
-			path = ContadorUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88383470270F642B00163479 /* ContadorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8838347C270F642B00163479 /* ContadorUITestsLaunchTests.swift in Sources */,
-				8838347A270F642B00163479 /* ContadorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
